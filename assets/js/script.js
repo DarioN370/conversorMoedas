@@ -1,10 +1,9 @@
 // Criar a requisição para pegar o valor do dolar atualizado e automaticamente com a requisição nesse site da uol https://economia.uol.com.br/cotacoes/cambio/
 
-let dolar = 6.04
+let dolar = 6.11
 
 let usdInput = document.querySelector("#usd")
 let brlInput = document.querySelector("#brl")
-
 
 usdInput.addEventListener("keyup", () => {
     convert("usd-to-brl")
@@ -72,7 +71,3 @@ function convert(type) {
         usdInput.value = formatCurrency(result)
     }
 }
-/*  a logica dessa função se divide me 3 etapas
-    ajustar o valor 
-    converter o valor
-    mostrar o valor no campo da moeda convertido */
