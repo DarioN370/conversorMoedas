@@ -1,5 +1,5 @@
 :root {
-    --background: #f3f3f3;
+    --background: #1e1e1e;
     --primary: #333333;
     --foreground: #e2edca;
     --secondary: #909090;
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    margin-top: 12rem;
+    margin-top: 15rem;
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--background);
@@ -31,9 +31,20 @@ header {
 }
 
 header img {
-    border-radius: 20px;
-    width: 8rem;
-    height: 8rem;
+    display: none;
+}
+
+.navBar ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.navItem{
+    font-size: 5rem;
+    color: var(--secondary);
+    text-decoration: none;
 }
 
 main {
