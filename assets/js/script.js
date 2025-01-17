@@ -1,6 +1,6 @@
 // Criar a requisição para pegar o valor do dolar atualizado e automaticamente com a requisição nesse site da uol https://economia.uol.com.br/cotacoes/cambio/
 
-let dolar = 6.11
+let dolar = 6.05
 
 let usdInput = document.querySelector("#usd")
 let brlInput = document.querySelector("#brl")
